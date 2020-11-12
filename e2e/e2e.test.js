@@ -40,7 +40,7 @@ describe('show pupover', () => {
   test('show pupover', async () => {
     await page.goto(baseUrl);
     const button = await page.$('.button');
-    button.click();~
+    button.click();
     await page.waitForSelector('.pupover.show');
   });
 });
